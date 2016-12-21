@@ -1,0 +1,224 @@
+/*
+
+My Custom CSS
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+  .navbar-brand {
+    padding: 12px 15px;
+  }
+  .logosize img{
+   width: 75%;
+  }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+     margin-top: 60px;
+     font-size: 1rem;
+   }
+
+   .carousel-caption {
+     font-size: 1.5em;
+   }
+
+   .carousel-caption h4 {
+     font-size: 2em;
+   }
+
+   #myCarousel .item {height: 400px;}
+
+   #slide1 {
+     background: url('../images/web_main_pic302.png') top center repeat;
+   }
+
+   #slide2 {
+     background: url('../images/web_main_pic302.png') top center repeat;
+   }
+
+   #slide3 {
+     background: url('../images/web_main_pic302.png') top center repeat;
+   }
+
+
+   @media (min-width: 1200px) {
+
+     #myCarousel .item {height: 500px;}
+
+     #myCarousel {font-size: 1.5rem;}
+
+     #slide1 {
+       background: url('../images/web_main_pic3.png') top center repeat;
+     }
+
+     #slide2 {
+       background: url('../images/web_main_pic3.png') top center repeat;
+     }
+
+     #slide3 {
+       background: url('../images/web_main_pic3.png') top center repeat;
+     }
+   }
+
+   @media (max-width: 768px) {
+
+     #myCarousel .item {height: 310px;}
+
+     #myCarousel {font-size: 0.8rem;}
+
+    #slide1 {
+      background: url('../images/web_main_pic303.png') top center repeat;
+    }
+
+    #slide2 {
+      background: url('../images/web_main_pic303.png') top center repeat;
+    }
+
+    #slide3 {
+      background: url('../images/web_main_pic303.png') top center repeat;
+    }
+  }
+
+/* --------------------------------------
+   Jumbotron
+   -------------------------------------- */
+
+  #myJumbotron .jumbotron{
+     background: url('../images/background.png');
+  }
+
+  #myJumbotron .jumbotron h1 {
+      color: white;
+  }
+
+  #myJumbotron .jumbotron p {
+      color: white;
+  }
+
+  #myJumbotron .jumbotron small {
+      color: lightgray;
+  }
+
+/* --------------------------------------
+   Thumbnail
+   -------------------------------------- */
+
+  #myThumbnail {
+    text-align: center;
+  }
+  #myThumbnail p{
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+   @media (min-width: 1200px) {
+    .thumbnail2{
+      height: 431px;
+      }
+   }
+   @media (max-width: 768px){
+     .thumbnail2{
+       height: 352px;
+     }
+   } @media (max-width: 768px){
+      .thumbnail4{
+        height: 344px;
+      }
+    }
+  #myThumbnail img {
+    margin: 20px auto;
+    background-color: black;
+    box-shadow: 1px 1px 2px #111010;
+  }
+
+  @media (max-width: 1200px) {
+    #myThumbnail img {
+      max-width: 80%;
+    }
+
+  }
+  @media (min-width: 1200px) {
+    .bot-pic img{
+      width: 395px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+ @media (max-width: 768px){
+    .bot-pic img{
+      width: 30%;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+}
+ @media (max-width: 480px){
+      .bot-pic img{
+      margin: 0px;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      width: 70%;
+     }
+
+ }
+.panel-defaultbot{
+
+text-align: center;
+}
+
+  /* --------------------------------------
+     Footer
+     -------------------------------------- */
+
+  footer {
+  	background: #333;
+  	color: #eee;
+  	font-size: 11px;
+  	padding: 20px;
+    text-align: center;
+  }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
